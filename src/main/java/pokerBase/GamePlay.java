@@ -218,7 +218,7 @@ public class GamePlay implements Serializable   {
 		
 		return pl;
 	}
-	/*
+
 	public GamePlayPlayerHand FindCommonHand(GamePlay gme)
 	{
 		GamePlayPlayerHand GPCH = null;
@@ -231,14 +231,14 @@ public class GamePlay implements Serializable   {
 		}		
 		return GPCH;
 	}
-	*/
+	
 
 	public void seteGameState(pokerEnums.eGameState draw) {
 		// TODO Auto-generated method stub
 		
 	}
 	
-/*	public GamePlayPlayerHand FindPlayerGame(GamePlay gme, Player p)
+	public GamePlayPlayerHand FindPlayerGame(GamePlay gme, Player p)
 	{
 		GamePlayPlayerHand GPPHReturn = null;
 		
@@ -251,7 +251,7 @@ public class GamePlay implements Serializable   {
 			}
 		}
 		return GPPHReturn;
-	}*/
+	}}
 	
 	
-}
+

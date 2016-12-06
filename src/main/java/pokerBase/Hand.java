@@ -20,7 +20,7 @@ public class Hand {
 	private HandScore hs;
 	private ArrayList<Hand> ExplodedHands = new ArrayList<Hand>();
 
-	 ArrayList<Card> getCardsInHand() {
+	 public ArrayList<Card> getCardsInHand() {
 		return CardsInHand;
 	}
 
